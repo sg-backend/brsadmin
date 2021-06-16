@@ -341,10 +341,10 @@ const common_array = [
 
                   {
                     method : "GET" , 
-                  path :"/brsinfotechadminapi/src/image/{file*}",
+                  path :"/brsadmin/src/image/{file*}",
                     handler:{
                       directory: {
-                                      path: '/brsinfotechadminapi/src/image',
+                                      path: '/brsadmin/src/image',
                                     
                                     }
                               }
