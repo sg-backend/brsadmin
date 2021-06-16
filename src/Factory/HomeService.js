@@ -12,7 +12,7 @@ let AddHomeService = (request) => {
 
     const filename = request.payload.file.hapi.filename;
 
-    Fs.writeFile('./brsinfotechadminapi/src/image' + '/' + filename, request.payload.file._data,(err,data)=>{
+    Fs.writeFile('./brsadmin/src/image' + '/' + filename, request.payload.file._data,(err,data)=>{
         if(err) {
             reject(err);
             console.log("Error",err);
